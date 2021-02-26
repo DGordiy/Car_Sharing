@@ -1,0 +1,54 @@
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL) [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,company_id INT NOT NULL,CONSTRAINT company_id FOREIGN KEY(company_id)REFERENCES COMPANY(id)); [42101-200]
+2021-02-26 20:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+CREATE TABLE CUSTOMER (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,CONSTRAINT rented_car_id FOREIGN KEY(rented_car_id)REFERENCES CAR(id)); [42101-200]
